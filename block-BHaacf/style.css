@@ -43,6 +43,10 @@ table {
 }
 /*custom style*/
 /*common*/
+@import url('https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    font-family: 'Andika New Basic', sans-serif;
+}
 *,*::before,*::after{
     box-sizing: border-box;
 }
@@ -234,6 +238,7 @@ font-size: 16px;
     justify-content: center;
     align-items: center;
 }
+
 .inherit{
     height: inherit;
     width: inherit;
@@ -244,12 +249,12 @@ font-size: 16px;
     font-weight: 700;
 }
 .member p{
-    line-height: 1.2;
+    line-height: 1.4;
     margin-top: 10px;
     margin-bottom: 20px;
     color: white;
     font-size: 18x;
-    width: 65%;
+    width: 75%;
     text-align: center;
 }
 .col-1-35{
@@ -453,4 +458,7 @@ label{
 .row-center img{
     margin-top: 20px;
     margin-bottom: 20px;
+}
+.row-center p{
+    
 }
