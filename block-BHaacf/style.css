@@ -459,6 +459,9 @@ label{
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.row-center p{
-    
+footer{
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    padding: 20px;
 }
